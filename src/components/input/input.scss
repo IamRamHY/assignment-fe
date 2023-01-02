@@ -1,0 +1,8 @@
+.inputField {
+    border: 0;
+    border-bottom: 1px solid rgb(156, 151, 151);
+    width: 100%;
+    &:focus {
+        outline: none;
+    }
+}

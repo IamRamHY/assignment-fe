@@ -1,0 +1,12 @@
+.button {
+    padding: 14px 18px;
+    background: #8c91ff;
+    color: #fff; 
+    font-size: 18px;
+    border: 0; 
+    border-radius: 4px;  
+    cursor: pointer;
+    &:active {
+        opacity: 0.9;
+    }
+}

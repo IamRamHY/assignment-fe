@@ -1,0 +1,14 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .userProfileGrid {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: minmax(min-content, max-content);
+    grid-gap: 20px;
+    flex-grow: 1;
+    overflow: auto;
+  }
+}
