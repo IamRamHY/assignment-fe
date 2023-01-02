@@ -1,0 +1,19 @@
+.header {
+    padding: 20px 30px;
+    display: flex;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+    .leftSection {
+        flex-grow: 1;    
+        .logo {
+            height: 48px;
+            width: 48px;
+            border-radius: 8px;
+            background-color: rgb(136, 136, 136);
+        }
+    }
+    .rightSection {
+        flex-grow: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
